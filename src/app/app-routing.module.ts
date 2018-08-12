@@ -3,12 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 
 // import components
 
-import { AppComponent } from '../app/app.component';
-import { FirstDashComponent } from '../components/firstdash-component/firstdash.component' ;
+import { FirstDashComponent } from '../components/firstdash-component/firstdash.component';
+import { SecondDashComponent } from '../components/seconddash-component/seconddash.component';
 
 
 const routesConfig: Routes = [
   {path: '', pathMatch: 'full', component: FirstDashComponent},
+  {path: 'firtdash', pathMatch: 'full', component: FirstDashComponent},
+  {path: 'seconddash', pathMatch: 'full', component: SecondDashComponent},
 ];
 
 @NgModule({

@@ -6,8 +6,9 @@ aside.ng-sidebar {
     box-shadow: 0 0 2.5em rgba(85,85,85,.5);
 	background: #242633;
     // margin-top: 2.5rem;
-    width: 16%;
+    // width: 16%;
     display: block;
+    width: 100%;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px){

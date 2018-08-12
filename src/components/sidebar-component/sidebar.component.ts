@@ -18,12 +18,12 @@ export class SidebarComponent implements OnInit {
 		this.sideBarItems = [
 			{
 				"name": "Dashboard",
-				"path": "company",
+				"path": "firtdash",
 				"icon": "fa fa-newspaper-o"
 			},
 			{
 				"name": "Analytics",
-				"path": "ambassador",
+				"path": "seconddash",
 				"icon": "fa fa-object-ungroup"
 			},
 			{
