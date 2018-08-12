@@ -1,0 +1,16 @@
+<ng-sidebar-container class="container-side">
+  <ng-sidebar [(opened)]="_opened" class="">
+    <ul class="custom-scrollbar sidebar-ul-cls" #sidebarUl>
+        <li *ngFor="let sideBarItem of sideBarItems; let i = index" (click)="activeSidebarEl(i)" class="text-white p-3">
+            <i class="{{sideBarItem.icon}}"></i>
+            <a [routerLink]="sideBarItem.path" class="pl-3">{{sideBarItem.name}}</a>
+        </li>
+    </ul>
+  </ng-sidebar>
+  <div ng-sidebar-content class="content-sidenav-btn">
+    <i class="fa fa-bars ml-3 teal-text" (click)="_toggleSidebar()"></i>
+  </div>
+</ng-sidebar-container>
+<div class="col-10">
+	<router-outlet></router-outlet>
+</div>
