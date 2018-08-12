@@ -10,7 +10,7 @@ import { Component, OnInit ,NgZone, ViewChild} from '@angular/core';
 export class SidebarComponent implements OnInit {
 	
 	public sideBarItems:Array<any>;
-	public _opened: boolean = false;
+	public _opened: boolean = true;
 	public slideOpen:boolean;
 	@ViewChild('buttonCollapse') buttonCollapse;
 	@ViewChild('sidebarUl') sidebarUl;

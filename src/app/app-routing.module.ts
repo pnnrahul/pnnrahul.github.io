@@ -4,9 +4,11 @@ import { Routes, RouterModule } from '@angular/router';
 // import components
 
 import { AppComponent } from '../app/app.component';
+import { FirstDashComponent } from '../components/firstdash-component/firstdash.component' ;
+
 
 const routesConfig: Routes = [
-  // {path: '', pathMatch: 'full', component: AppComponent},
+  {path: '', pathMatch: 'full', component: FirstDashComponent},
 ];
 
 @NgModule({

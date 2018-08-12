@@ -12,6 +12,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from '../components/header-component/header.component';
 import { NavbarComponent } from '../components/navbar-component/navbar.component';
 import { SidebarComponent } from '../components/sidebar-component/sidebar.component';
+import { FirstDashComponent } from '../components/firstdash-component/firstdash.component';
 // services
 import { AppRoutingModule } from  './app-routing.module';
 
@@ -21,6 +22,7 @@ import { AppRoutingModule } from  './app-routing.module';
 	NavbarComponent,
 	HeaderComponent,
 	SidebarComponent,
+	FirstDashComponent
   ],
   imports: [
 	BrowserModule,
